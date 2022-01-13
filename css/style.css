@@ -5,7 +5,7 @@
   --bg-darker:#070707;
   --bg-dark:#333;
   --bg-light:#f1f1f1;
-  --bg-menu:#1f59fa;
+  --bg-menu:#0032bb;
   --orange:#ff6600;
   --blue:#0004ff;
   --dark-mode:#000141;
@@ -404,6 +404,7 @@ header{
   padding: .5rem;
   background-color: var(--dark-mode);
   border-radius: 100%;
+  cursor: pointer;
 }
 .dark-mode .fas:hover{
   transform: scale(1.1);
