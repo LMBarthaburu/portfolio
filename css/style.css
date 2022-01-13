@@ -5,7 +5,7 @@
   --bg-darker:#070707;
   --bg-dark:#333;
   --bg-light:#f1f1f1;
-  --bg-menu:#002ca3;
+  --bg-menu:#1f59fa;
   --orange:#ff6600;
   --blue:#0004ff;
   --dark-mode:#000141;
@@ -205,7 +205,7 @@ header{
   font-weight: bold;
 }
 .download-btn{
-  font-size: 1.2Srem;
+  font-size: 1.2rem;
   padding: 0.5rem 1rem;
   background-color: var(--orange);
   color: var(--font-light);
@@ -357,7 +357,7 @@ header{
   resize: none;
 }
 .contact-button{
-  font-size: 1.2Srem;
+  font-size: 1.2rem;
   padding: 0.5rem 1rem;
   background-color: var(--orange);
   color: var(--font-light);
