@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 :root{
   --font-light:#f1f1f1;
   --font-dark:#333;
@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 html{
   scroll-behavior: smooth;
@@ -102,7 +102,6 @@ header{
   z-index: 3;
 }
 .home{
-  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: space-around;
@@ -123,7 +122,7 @@ header{
 }
 .hero-text h1{
   font-size: 3rem;
-  margin-top: .5rem;
+  line-height: 1;
 }
 .hero-text h1 span{
   color: var(--orange);
@@ -131,7 +130,6 @@ header{
 }
 .hero-text h2{
   font-size: 2.2rem;
-  margin-bottom: 1rem;
   font-weight: bolder;
   color: var(--orange);
 }
@@ -160,7 +158,6 @@ header{
   display: none;
 }
 .about{
-  width: 100%;
   padding: 0.5rem 2rem;
   color: var(--font-dark);
 }
@@ -172,12 +169,12 @@ header{
   color: var(--orange);
 }
 .about-title{
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bolder;
   margin-bottom: 1rem;
 }
 .about-text{
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .about-box1{
   margin-top: 1rem;
@@ -187,7 +184,7 @@ header{
 }
 .about-img{
   width: 350px;
-  height: 350px;
+  height: 400px;
   object-fit: cover;
   filter: drop-shadow(0px 0px 2px var(--bg-dark));
 }
@@ -214,7 +211,8 @@ header{
   color: var(--font-light);
   border: none;
   text-decoration: none;
-  width: 150px;
+  text-align: center;
+  width: 200px;
 }
 .download-btn:hover{
   opacity: .8;
@@ -280,7 +278,6 @@ header{
   margin-bottom: 1rem;
 }
 .portfolio{
-  width: 100%;
   padding: 0.5rem 2rem;
   color: var(--font-dark);
 }
