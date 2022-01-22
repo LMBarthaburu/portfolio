@@ -107,7 +107,7 @@ header{
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  padding: 0 2rem;
+  padding:2rem;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -427,7 +427,7 @@ header{
     display: none;
   }
   .home{
-    padding: 5rem 2.5rem;
+    padding: 10rem 2.5rem;
   }
   .hero-img{
     width: 600px;
@@ -501,6 +501,9 @@ header{
   }
   .heading{
     font-size: 2rem;
+  }
+  .about-img{
+    width: 80%;
   }
   .about-skills{
    display: none;
