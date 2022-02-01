@@ -459,6 +459,11 @@ header{
   .icons-contact-container{
     flex-direction: row;
   }
+  .portfolio-box{
+    width: 20rem;
+    height:20rem;
+    z-index: 0;
+  }
 @media (max-width: 600px){
   header{
     padding: 3rem 2rem;
