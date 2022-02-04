@@ -288,7 +288,7 @@ header{
 }
 .portfolio-container{
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap:.5rem;
@@ -513,6 +513,11 @@ header{
   }
   .heading{
     font-size: 2rem;
+  }
+  .about-title{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
   }
   .about-img{
     width: 80%;
