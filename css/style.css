@@ -76,14 +76,19 @@ header{
   flex-direction: column;
   text-align: center;
 }
-.navbar a{
+.nav-item{
   font-size: 1.3rem;
   text-decoration: none;
   color: var(--font-light);
   line-height: 1.7;
   font-weight: normal;
 }
-.navbar a:hover{
+.nav-item:hover{
+  color: var(--orange);
+  letter-spacing: .1rem;
+  font-weight: 900;
+}
+.active{
   color: var(--orange);
   letter-spacing: .1rem;
   font-weight: 900;
