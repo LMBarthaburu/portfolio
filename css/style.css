@@ -404,6 +404,15 @@ header{
   font-size: 2.5rem;
   margin-bottom: .2rem;
 }
+.fa-brands{
+  margin: 13px 0;
+}
+.fa-brands:hover{
+  color: var(--orange);
+}
+.fa-bootstrap{
+  margin-left: -5px;
+}
 .dark-mode .fas{
   color: var(--font-light);
   font-size: 1.2rem;
