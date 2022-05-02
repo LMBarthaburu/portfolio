@@ -415,6 +415,11 @@ header{
 .dark-mode .fas:hover{
   transform: scale(1.1);
 }
+@media (min-width: 1441px){
+  body{
+    margin: 0 10%;
+  }
+}
 @media (max-width: 1200px){
   body{
     padding-left: 0;
