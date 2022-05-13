@@ -5,7 +5,7 @@
   --bg-darker:#070707;
   --bg-dark:#333;
   --bg-light:#f1f1f1;
-  --bg-menu:#0032bb;
+  --bg-menu:#292b2e;
   --orange:#ff6600;
   --blue:#0004ff;
   --dark-mode:#000141;
@@ -47,16 +47,16 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 3rem 2rem;
-  width: 15rem;
+  width: 10rem;
   z-index: 2;
 }
 .logo{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bolder;
 }
 .favicon{
-  width: 150px;
+  width: 80px;
 }
 .logo a{
   text-decoration: none;
@@ -77,7 +77,7 @@ header{
   text-align: center;
 }
 .nav-item{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: var(--font-light);
   line-height: 1.7;
@@ -101,7 +101,7 @@ header{
   background-color: var(--orange);
   border-radius: .5rem;
   padding: 0.4rem 0.7rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   cursor: pointer;
   display: none;
   z-index: 3;
@@ -300,8 +300,8 @@ header{
   margin: 1.5rem 0;
 }
 .portfolio-box{
-  width: 30rem;
-  height:30rem;
+  width: 25rem;
+  height:25rem;
   position: relative;
   overflow:hidden;
   border:.5rem solid var(--card-bg);
@@ -349,8 +349,8 @@ header{
 }
 .contact-main-container{
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: start;
+  align-items: flex-start;
   height: 80%;
 }
 .contact .row{
@@ -360,13 +360,13 @@ header{
 .contact .row form textarea{
   width: 100%;
   border: none;
-  color: var(--bg-darker);
+  color: var(--bg-light);
   text-transform: none;
   font-size: 1rem;
   padding:.3rem .5rem;
   margin:.1rem 0;
   resize: none;
-  background-color: #e0e0e0;
+  background-color: var(--bg-dark);
 }
 .contact-button{
   font-size: 1rem;
@@ -383,26 +383,16 @@ header{
   opacity: 0.8;
 }
 .icons-contact-container{
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.icons-contact-box{
+  width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  height:8rem;
-  width:15rem;
-  text-align: center;
-  margin: .5rem 0;
-  color: var(--font-dark);
 }
-.icons-contact-box i{
-  font-size: 2.5rem;
-  margin-bottom: .2rem;
+.icons-contact-container a{
+  font-size: 3rem;
+  text-decoration: none;
+  color: var(--bg-dark);
 }
 .fa-brands{
   margin: 13px 0;
@@ -472,11 +462,11 @@ header{
     flex-direction: column;
   }
   .contact-main-container{
-    flex-direction: column-reverse;
+    flex-direction: column;
     height: auto;
   }
   .icons-contact-container{
-    flex-direction: row;
+    display: none;
   }
   .portfolio-container{
     justify-content: space-evenly;
